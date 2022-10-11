@@ -31,9 +31,11 @@ document.querySelector("h1").onclick = function () {
 // const changePcontent = function () {
 //   //
 // };
-document.querySelectorAll("div>p").onclick = function () {
-  let Pcontent = document.getElementsByTagName("p");
-  Pcontent.innerText = "This is the new text";
+document.querySelectorAll("p").onclick = function () {
+  let Pcontent = document.querySelectorAll("div>p");
+  for (let i = 0; i < Pcontent.length; i++) {
+    Pcontent.innerText = "This is the new text";
+  }
   //   let div = document.createElement("div");
   //   div.innerHTML = `<button>Change text</button>`;
   //   button.appendChild("h1");
