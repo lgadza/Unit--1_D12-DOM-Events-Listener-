@@ -56,9 +56,9 @@ document.querySelector("a").onmouseover = function () {
   linkName.innerText = "This link NOW GOES to google";
   linkChange.style = "color:coral";
 };
-// /* EXERCISE 5
-//      Write a function for adding a new list item in the second unordered list.
-//     */
+/* EXERCISE 5
+     Write a function for adding a new list item in the second unordered list.
+    */
 
 // const addToTheSecond = function (content) {
 //   //
@@ -70,9 +70,9 @@ document.getElementById("myBtn").onclick = function () {
   ul.appendChild(newItem);
 };
 
-// /* EXERCISE 6
-//      Write a function for adding a second paragraph to the first div.
-//     */
+/* EXERCISE 6
+     Write a function for adding a second paragraph to the first div.
+    */
 
 // const addParagraph = function (content) {
 //   //
@@ -88,9 +88,9 @@ document.getElementById("secondP").onclick = function () {
   firstDiv.appendChild(p);
 };
 
-// /* EXERCISE 7
-//      Write a function for making the first unordered list disappear.
-//     */
+/* EXERCISE 7
+     Write a function for making the first unordered list disappear.
+    */
 
 // const firstUlDisappear = function () {
 //   //
@@ -131,9 +131,9 @@ const makeItClickable = function () {
   });
 };
 
-// /* EXERCISE 10
-//      Change the footer text with something else when the user clicks on it.
-//     */
+/* EXERCISE 10
+     Change the footer text with something else when the user clicks on it.
+    */
 
 // const changeFooterText = function () {
 //   //
