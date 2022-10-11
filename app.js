@@ -5,8 +5,9 @@
 const changeTitle = function (newTitle) {
   //
   let title = document.querySelector("h1");
-  title = innerText = newTitle;
+  title.innerText = newTitle;
 };
+changeTitle("Louis");
 // document.querySelector("h1").onmousemove = function () {
 //   let title = document.querySelector("h1");
 //   title.innerText = "My name is Louis Gadza";
