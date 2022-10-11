@@ -101,12 +101,12 @@ document.getElementById("firstList").onclick = function () {
   console.log(items);
 };
 
-// /* EXERCISE 8
-//      Write a function for making the background of every unordered list green.
-//     */
+/* EXERCISE 8
+     Write a function for making the background of every unordered list green.
+    */
 
-// const paintItGreen = function () {
-//   //
+//const paintItGreen = function () {
+//
 // };
 document.getElementById("change").onclick = function () {
   let greenBackground = document.getElementsByTagName("ul");
