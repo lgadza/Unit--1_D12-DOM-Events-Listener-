@@ -2,16 +2,16 @@
      Write a function for changing the title of the document in something else.
     */
 
-// const changeTitle = function (newTitle) {
-//   //
-//     let title = (document.querySelector("h1")
-
-// };
-document.querySelector("h1").onmousemove = function () {
+const changeTitle = function (newTitle) {
+  //
   let title = document.querySelector("h1");
-  title.innerText = "My name is Louis Gadza";
-  //   title.style = "color:coral";
+  title = innerText = newTitle;
 };
+// document.querySelector("h1").onmousemove = function () {
+//   let title = document.querySelector("h1");
+//   title.innerText = "My name is Louis Gadza";
+//   //   title.style = "color:coral";
+// };
 /* EXERCISE 2
      Write a function for changing the class of the title of the page in "myHeading".
     */
