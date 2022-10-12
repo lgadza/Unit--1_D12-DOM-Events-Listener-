@@ -170,17 +170,25 @@ window.addEventListener(
   function startup() {
     color = document.querySelector("#color");
     color.value = defaultColor;
-    color.addEventListener("input", function updateFirst(event) {
-      const subtitle = document.querySelector("div h2");
-      if (subtitle) {
-        subtitle.style.color = event.target.value;
-      }
-    });
-    color.addEventListener("change", function updateAll(event) {
-      document.querySelectorAll("div h2").forEach((subtitle) => {
-        subtitle.style.color = event.target.value;
-      });
-    });
+    color.addEventListener(
+      "input",
+      function updateFirst(event) {
+        const subtitle = document.querySelector("div h2");
+        if (subtitle) {
+          subtitle.style.color = event.target.value;
+        }
+      },
+      false
+    );
+    color.addEventListener(
+      "change",
+      function updateAll(event) {
+        document.querySelectorAll("div h2").forEach((subtitle) => {
+          subtitle.style.color = event.target.value;
+        });
+      },
+      false
+    );
     color.select();
   },
   false
